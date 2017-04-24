@@ -8,7 +8,6 @@ public class MainApp {
 
         String fileString = "countries.txt";
         CountriesTextFile.createFile(fileString);
-        CountriesApp.selectMenuOption();
-        CountriesApp.continueProgram();
+        while (CountriesApp.continueProgram());
     }
 }

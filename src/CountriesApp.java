@@ -28,7 +28,8 @@ public class CountriesApp {
     }
 
     public static boolean continueProgram (){
-        if (selectMenuOption() == 1 || selectMenuOption() ==2){
+        int menuOption = selectMenuOption();
+        if (menuOption == 1 || menuOption == 2){
             return true;
         }
         return false;
